@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inner-container{
+    max-width: 1020px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.about{
+    background-image: url(https://preview.colorlib.com/theme/travelo/img/banner/bradcam3.png.webp);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-content .title{
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 90px;
+    font-family: "Nothing You Could Do", cursive;
+}
+
+@media (max-width:425px) {
+    .about-content .title{
+        font-size:60px ;
+    }
+    .about-content .sub-title{
+        font-size: 14px !important;
+    }
+    
+}
+.about-content .sub-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.our-story{
+    margin-bottom: 80px;
+}
+.our-story h3{
+    color: black;
+    font-size: 38px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.inner-container .story{
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 30px;
+    color: #7A838B;
+    margin-bottom: 0px;
+    font-family: "Rubik", sans-serif;
+}
+/* ************Img********** */
+
+.img-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.imgs{
+    margin-bottom: 25px;
+}
+
+@media (max-width:900px) {
+    .imgs img{
+        width: 100% !important; ;
+    }
+    
+}
+.tour-num{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.counter .counter-value{
+    color: #FF4A52;
+    font-weight: 400;
+    font-size: 60px;
+    margin-bottom: 17px;
+   
+}
+.tour-num .counter{
+    text-align: center;
+    color: #7A838B;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 80px;
+    line-height: 28p;
+    font-family: "Rubik", sans-serif;
+}
+
+
+    

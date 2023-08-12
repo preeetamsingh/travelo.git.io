@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.destination{
+    background-image: linear-gradient(to right, #34343482, #00000028), url(img/beatch.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.destination-content .title{
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 90px;
+    font-family: "Nothing You Could Do", cursive;
+}
+@media (max-width:425px) {
+    .destination-content .title{
+        font-size:45px ;
+    }
+    .destination-content .sub-title{
+        font-size: 14px !important;
+    } 
+}
+.destination-content .sub-title{
+    font-size: 18px;
+    font-weight: 400;
+}
+.description{
+    margin:  0px auto;
+    max-width: 900px;
+    /* border: 1px solid black; */
+    padding-top: 70px;
+    padding-bottom: 100px;
+    
+}
+.description .inner-container .p-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #7A838B;
+    font-family: "Rubik", sans-serif;
+}
+.description .inner-container h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001D38;
+    margin-bottom: 30px;
+    
+    
+}
+.description .inner-container .day{
+    font-size: 18px;
+    font-weight: 600;
+    color: #001D38;
+    margin-bottom: 30px;
+
+}
